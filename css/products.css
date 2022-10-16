@@ -1,0 +1,53 @@
+.etymology__item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+
+}
+
+.etymology__item-icon {
+    color: rgb(200, 231, 59);
+    background-color: #6ba55d;
+    border-radius: 50%;
+}
+
+.etymology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.video {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.species {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.species__item {
+
+    border: 1px solid;
+    padding: 25px;
+
+}
+
+
+.species__item-img {
+    width: 200px;
+   height: 200px;
+}
+.species__item-title {
+    padding: 15px;
+    color: #6ba55d;
+}

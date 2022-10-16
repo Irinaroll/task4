@@ -1,0 +1,68 @@
+.wrapper {
+    background-color: #6ba55d;
+    padding: 5px;
+
+}
+
+.header-logo {
+    width: 100px;
+}
+
+.header-nav__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav__menu-item {
+    color: rgb(227, 255, 161);
+    text-decoration: none;
+
+}
+
+.header-nav__menu-item:hover {
+    text-decoration: underline;
+}
+
+
+@media (min-width:500px) {
+    .nav-bar>.header-nav__menu {
+        display: flex;
+    }
+
+    .header-nav__menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        padding: 10px;
+    }
+}
+
+.feedback {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/monstera1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    flex-direction: column;
+}
+
+.for-feedback {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.feedback__email {
+ background-color: rgb(227, 255, 161);
+    color: rgb(18, 59, 23);
+    border-radius: 80px;
+}
+.feedback__button {
+    color: black;
+    background-color: rgb(227, 255, 161);
+    border-radius: 80px;  
+}
