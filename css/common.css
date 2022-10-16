@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');");
 
 * {
     margin: 0;
@@ -7,18 +7,22 @@
 }
 
 :root {
-    font-family: "Lato", sans-serif;
-    background-color: #eeeeee;
-  }
+    font-family: 'Alkalami', serif;
+    --text-color: #222;
+    --alternate-text-color:#898989
+}
   
 img {
     display: block;
     width: 100%;
+}
+h1{
+    color: aqua;
 }
 .wrapper {
     margin: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #eeeeee;
+    background-color: #437a35;
 }
